@@ -8,7 +8,8 @@ import (
 	"strings"
 	"time"
 
-	hs "github.com/chanderg/grpc-p2p/helloservice"
+	"github.com/ChanderG/grpc-p2p/helloservice"
+	// "grpc-p2p/helloservice"
 	"github.com/hashicorp/consul/api"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
